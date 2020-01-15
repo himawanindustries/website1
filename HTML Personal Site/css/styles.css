@@ -1,0 +1,29 @@
+body{ background-color: #f5f5f5}
+hr
+{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+}
+h1
+{
+  color: #4f9da6;
+  font-family: "lr oSVbN", Osaka, "qMmpS Pro W3";
+}
+h2{
+  color: #3c415e;
+}
+h3
+{
+  color: #1a3263;
+}
+.ProfilePicture
+{
+  background-color: red;
+  border-radius: 100%;
+}
+.Ico{
+  width: 30px;
+  height: 30px;
+}
