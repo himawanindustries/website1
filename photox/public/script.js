@@ -40,14 +40,15 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
     let position=$(this).scrollTop();
-    if (position>=4000) {
+    // console.log(position);
+    if (position>=3500) {
       $('.card-1').addClass('moveFromLeft');
-      $('.card-2').addClass('moveFromRight');
-      $('.card-3').addClass('moveFromBottom');
+      $('.card-2').addClass('moveFromBottom');
+      $('.card-3').addClass('moveFromRight');
     }else {
       $('.card-1').removeClass('moveFromLeft');
-      $('.card-2').removeClass('moveFromRight');
-      $('.card-3').removeClass('moveFromBottom');
+      $('.card-2').removeClass('moveFromBottom');
+      $('.card-3').removeClass('moveFromRight');
     }
   })
 })
